@@ -31,8 +31,8 @@ function App() {
           throw new Error("can not get the data");
         }
         const data = await res.json();
-        //setCities(data.cities);
         setCities(data.cities);
+        // setCities(data);
       } catch (error) {
         alert("There was an error loading data...");
       } finally {
