@@ -17,7 +17,7 @@ function CitiesProvider({ children }) {
         }
         const data = await res.json();
         setCities(data.cities);
-        //setCities(data);
+        //  setCities(data);
       } catch (error) {
         alert("There was an error loading data...");
       } finally {
@@ -34,8 +34,8 @@ function CitiesProvider({ children }) {
         throw new Error("can not get current city");
       }
       const data = await res.json();
-      //setCurrentCity(data.cities);
-      setCurrentCity(data);
+      setCurrentCity(data.cities);
+      // setCurrentCity(data);
     } catch (error) {
       alert("There was an error loading data...");
     } finally {
