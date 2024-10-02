@@ -21,7 +21,7 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 function App() {
   return (
     <CitiesProvider>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Homepage />}></Route>
           <Route path="product" element={<Product />}></Route>
@@ -36,7 +36,7 @@ function App() {
           </Route>
           <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </CitiesProvider>
   );
 }

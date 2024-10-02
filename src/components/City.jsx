@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import styles from "./City.module.css";
 import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
@@ -33,6 +33,7 @@ function City() {
 
   useEffect(
     function () {
+      console.log("Fetching city with id:", id);
       getCity(id);
     },
     [id]

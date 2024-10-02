@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,19 +22,67 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "4f9e",
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-01T12:47:24.831Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": "-33.33474125453956",
+        "lng": "151.2405411098152"
+      }
+    },
+    {
+      "id": "8107",
+      "cityName": "Herrera del Duque",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-02T02:56:19.076Z",
+      "notes": "",
+      "position": {
+        "lat": "39.185355727930634",
+        "lng": "-5.029815238703318"
+      }
+    },
+    {
+      "id": "1924",
+      "cityName": "Brezina",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2024-10-02T02:56:22.396Z",
+      "notes": "",
+      "position": {
+        "lat": "32.92374686017515",
+        "lng": "2.093515088717282"
+      }
+    },
+    {
+      "id": "2dab",
+      "cityName": "ACT Remainder - Tuggeranong",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-02T02:56:27.676Z",
+      "notes": "",
+      "position": {
+        "lat": "-35.473746807848165",
+        "lng": "149.13145472966167"
+      }
+    },
+    {
+      "id": "67a7",
+      "cityName": "Gibberagee",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-02T02:56:33.968Z",
+      "notes": "",
+      "position": {
+        "lat": "-29.361844927040785",
+        "lng": "153.06653761673314"
+      }
     }
   ]
 }
