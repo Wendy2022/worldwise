@@ -13,18 +13,6 @@
       "id": "73930385"
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
       "id": "4f9e",
       "cityName": "Sydney",
       "country": "Australia",
@@ -106,6 +94,18 @@
       "position": {
         "lat": "-31.316100981697065",
         "lng": "152.648571794883"
+      }
+    },
+    {
+      "id": "09da",
+      "cityName": "Berrico",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-03T23:19:21.318Z",
+      "notes": "",
+      "position": {
+        "lat": "-32.09882724479094",
+        "lng": "151.82664006082237"
       }
     }
   ]
