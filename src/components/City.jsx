@@ -36,7 +36,7 @@ function City() {
       console.log("Fetching city with id:", id);
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
   const { cityName, emoji, date, notes } = currentCity;
   if (isLoading) <Spinner />;
